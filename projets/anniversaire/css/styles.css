@@ -1,0 +1,93 @@
+html {
+    background: url("../images/background.jpg") no-repeat;
+}
+
+body {
+    background: url("../images/birthday.gif");
+}
+
+#principale {
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+#principale p {
+    background-image: radial-gradient(circle at center, white, rgb(0, 175, 189));
+    box-shadow: 2px 2px 2px rgb(188, 182, 182);
+    border-radius: 1em;
+    text-decoration: rgb(2, 75, 203);
+    font-family: Andalus fantasy;
+    font-size: 40px;
+    text-align: center;
+}
+
+#principale p small {
+    font-size: 20px;
+    border: black dashed 1px;
+    border-radius: 1em;
+}
+
+.quotes {
+    clear: right;
+}
+
+#firstQuotes, #secondQuotes, #thirdQuotes {
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#firstQuotes p, #secondQuotes p, #thirdQuotes p {
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+    box-shadow: 4px 4px 2px rgb(188, 182, 182);
+    border-radius: 1em;
+    text-decoration: rgb(2, 75, 203);
+    font-family: Andalus fantasy;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#firstQuotes p {
+    border: rgba(0, 175, 189, 0.5) solid 2px;
+}
+
+#secondQuotes p {
+    border: rgba(224, 124, 17, 0.5) solid 2px;
+}
+
+#thirdQuotes p {
+    border: rgb(237, 213, 81) solid 2px;
+}
+
+#firstQuotes p small, #secondQuotes p small, #thirdQuotes p small {
+    float: right;
+    margin-right: 10%;
+    font-style: italic;
+    font-weight: unset;
+}
+
+#image2 {
+    visibility: hidden;
+    margin-top: -400px;
+    margin-left: 160px;
+}
+
+.homeBotton{
+    background-color: rgba(11,11,11,0.5);
+    width: 10em;
+    height: 3em;
+    border: none;
+    border-radius: 2em;
+    float: left;
+}
+.homeBotton a, .homeBotton a:hover, .homeBotton a:active, .homeBotton a:visited{
+    font-size: 1.2em;
+    font-family: 'Bitter', serif;
+    text-decoration: none;
+    color: white;
+}

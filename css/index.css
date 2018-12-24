@@ -1,0 +1,77 @@
+body{
+    background: url("../images/background.jpg");
+}
+nav{
+    opacity: 100%;
+}
+ul .btn{
+    background-color : rgba(11,11,11,0.6);
+    margin-right: 1em;
+    border-radius: 2em;
+}
+.btn:active,.btn:hover {
+    background-color: rgba(11,11,11,0.9);
+}
+li a:link, li a:visited, li a:active{
+    font-style: italic;
+    font-family: "Droid Sans Mono", "Times New Roman", serif;
+}
+li a:hover {
+    -webkit-animation: jello infinite 1s;
+    animation: jello infinite 1s;
+
+}
+div .dropdown-item:hover,div .dropdown-item:active{
+    background-color: rgba(11,11,11,0.5);
+    color: black;
+    font-weight: bold;
+    text-shadow: 0 2px 3px #444;
+    -webkit-animation: none;
+    animation: none;
+}
+nav .navbar-brand {
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Bitter', serif;
+    text-shadow: 4px 4px 4px grey;
+}
+.col-lg-4, .col-md-6, .col-sm-12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: inset 1px 1px 1px 1px black;
+}
+.projet_botton:visited, .projet_botton:hover, .projet_botton:active {
+    background-color: rgba(11,11,11,0.5);
+    text-underline: none;
+    font-weight: bold;
+    -webkit-animation: bounceIn infinite 1s;
+    animation: bounceIn infinite 1s;
+}
+.projet_botton a:hover, .projet_botton a:active {
+    color: whitesmoke;
+    font-family: 'Bitter', serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.projet_botton a {
+    color: black;
+    font-family: 'Bitter', serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+.carousel-inner{
+    border-radius: 2em;
+}
